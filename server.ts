@@ -8,7 +8,7 @@ import { initialMediaItems, initialRequests } from './src/data/catalog.js';
 dotenv.config();
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Body parsing middleware
 app.use(express.json({ limit: '10mb' }));
