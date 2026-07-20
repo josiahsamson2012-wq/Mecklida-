@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header.tsx';
-import Footer from './components/Footer.tsx';
-import KatalogiTab from './components/KatalogiTab.tsx';
-import TafsiriTab from './components/TafsiriTab.tsx';
-import MaombiTab from './components/MaombiTab.tsx';
-import ChangiaTab from './components/ChangiaTab.tsx';
+import Header from './Components/Header.tsx';
+import Footer from './Components/Footer.tsx';
+import KatalogiTab from './Components/KatalogiTab.tsx';
+import TafsiriTab from './Components/TafsiriTab.tsx';
+import MaombiTab from './Components/MaombiTab.tsx';
+import ChangiaTab from './Components/ChangiaTab.tsx';
 import { MediaItem, SubtitleRequest } from './types';
 import { Film, Sparkles, MessageSquare, PlusCircle, AlertCircle, Info } from 'lucide-react';
 import { motion } from 'motion/react';
